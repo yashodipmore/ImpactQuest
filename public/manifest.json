@@ -1,0 +1,45 @@
+{
+  "name": "ImpactQuest",
+  "short_name": "ImpactQuest",
+  "description": "Turn your neighborhood into your quest zone - gamified social impact for teens",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#7C3AED",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/icon-512.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["social", "lifestyle", "education"],
+  "shortcuts": [
+    {
+      "name": "Find Quests",
+      "short_name": "Quests",
+      "description": "Discover nearby quests",
+      "url": "/"
+    },
+    {
+      "name": "Leaderboard",
+      "short_name": "Leaders",
+      "description": "See top impact makers",
+      "url": "/leaderboard"
+    },
+    {
+      "name": "My Profile",
+      "short_name": "Profile",
+      "description": "View your progress",
+      "url": "/profile"
+    }
+  ]
+}
